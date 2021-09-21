@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/insurance_agent_holding_three_layer_red_umbrella_shutterstock_716965849"
+    android:background="@drawable/_b9fb544_4f5e_4405_845f_483ab0e74032"
     tools:context=".ui.home.HomeFragment">
 
     <TextView
@@ -22,16 +22,17 @@
 
     <Button
         android:id="@+id/btn_homecom"
-        android:layout_width="288dp"
-        android:layout_height="166dp"
+        android:layout_width="241dp"
+        android:layout_height="70dp"
         android:layout_marginStart="51dp"
-        android:layout_marginTop="37dp"
+        android:layout_marginTop="458dp"
         android:layout_marginEnd="72dp"
-        android:layout_marginBottom="365dp"
+        android:layout_marginBottom="40dp"
         android:text="@string/btn_homecom"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.227"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/text_home" />
 </androidx.constraintlayout.widget.ConstraintLayout>
