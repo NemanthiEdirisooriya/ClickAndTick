@@ -41,6 +41,10 @@ public class GalleryFragment extends Fragment {
             }
         });
 
+
+
+
+
         final TextView textView = binding.textGallery;
         galleryViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
             @Override
