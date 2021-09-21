@@ -16,4 +16,20 @@
     <string name="btn_notices">Click To View Notices</string>
     <string name="btn_homecom">"Just  one Step "</string>
     <string name="btn_addrates">Click To Add Rates</string>
+    <string name="tv_addRates0">      Add Your Rates Here </string>
+    <string name="et_addRates1">Company name : </string>
+    <string name="et_addRates2">Hybrid vehicles : </string>
+    <string name="et_addRates3">Wagon R : </string>
+    <string name="et_addRates4">Cars: </string>
+    <string name="et_addRates5"> Luxury Vehicles : </string>
+    <string name="et_addRates6">Leaf cars : </string>
+    <string name="btn_addRates">Submit</string>
+    <string name="invalid_rate">Please input the rate </string>
+    <string name="tv_luxury0">Tick Your Luxury Items </string>
+    <string name="tv_luxury1">Labogini</string>
+    <string name="tv_luxury4">Porche</string>
+    <string name="tv_luxury2">BMW</string>
+    <string name="btn_luxryv">Submit</string>
+    <string name="tv_contactus">You are at the RIGHT place for Insurance quotations!!!</string>
+    <string name="tv_home">You are at the RIGHT Place For Insurance Quotations !!!</string>
 </resources>

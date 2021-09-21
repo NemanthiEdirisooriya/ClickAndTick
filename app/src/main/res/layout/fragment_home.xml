@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/_b9fb544_4f5e_4405_845f_483ab0e74032"
+    android:background="@drawable/c70be1fc_2e82_49c5_8b04_d3442a6621ba"
     tools:context=".ui.home.HomeFragment">
 
     <TextView
@@ -20,19 +20,35 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
-        android:id="@+id/btn_homecom"
-        android:layout_width="241dp"
-        android:layout_height="70dp"
-        android:layout_marginStart="51dp"
-        android:layout_marginTop="458dp"
-        android:layout_marginEnd="72dp"
-        android:layout_marginBottom="40dp"
-        android:text="@string/btn_homecom"
-        android:textSize="16sp"
-        app:layout_constraintBottom_toBottomOf="parent"
+    <TextView
+        android:id="@+id/tv_home"
+        android:layout_width="290dp"
+        android:layout_height="221dp"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="64dp"
+        android:fontFamily="@font/aclonica"
+        android:gravity="center"
+        android:text="@string/tv_home"
+        android:textColor="#D52626"
+        android:textSize="34sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.227"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/text_home" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="336dp"
+        android:layout_height="296dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginBottom="41dp"
+        android:src="@drawable/_1ca64b2_fc72_4aaa_a741_6f6533981750"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_home" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
