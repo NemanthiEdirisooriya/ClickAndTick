@@ -9,7 +9,11 @@
         android:id="@+id/edt_description"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Note description"
+        android:layout_marginBottom="567dp"
+        android:hint="Review"
+        android:minHeight="48dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/edt_title" />
 
@@ -17,7 +21,8 @@
         android:id="@+id/edt_title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Note title"
+        android:hint=" Name"
+        android:minHeight="48dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />

@@ -1,6 +1,7 @@
 package com.example.todo;
 
 import android.content.Context;
+import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
@@ -31,4 +32,13 @@ public class DatabaseHelper extends SQLiteOpenHelper {
 
 
     }
+
+    public Cursor Viewdata(){
+
+        SQLiteDatabase sqLiteDatabase =  this.getReadableDatabase();
+        Cursor cursor = sqLiteDatabase.rawQuery(" select *  from  Note " ,null);
+        return cursor;
+    }
+
+
 }
