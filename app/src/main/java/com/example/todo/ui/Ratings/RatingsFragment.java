@@ -14,6 +14,7 @@ import androidx.fragment.app.Fragment;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
 
+import com.example.todo.AddRates;
 import com.example.todo.MainActivity;
 import com.example.todo.R;
 
@@ -38,7 +39,7 @@ public class RatingsFragment extends Fragment {
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(getActivity() ,MainActivity.class);
+                Intent i = new Intent(getActivity() , MainActivity.class);
                 startActivity(i);
             }
         });

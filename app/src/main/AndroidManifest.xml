@@ -10,6 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Todo">
         <activity
+            android:name=".Contact_us"
+            android:exported="true" />
+        <activity
+            android:name=".NoticeViewCompany"
+            android:exported="true" />
+        <activity
+            android:name=".AddLuxuryvehicles"
+            android:exported="true" />
+        <activity
+            android:name=".AddRates"
+            android:exported="true" />
+        <activity
             android:name=".Navigation_Drawerc"
             android:exported="true"
             android:label="@string/title_activity_navigation_drawerc"
@@ -26,6 +38,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>
