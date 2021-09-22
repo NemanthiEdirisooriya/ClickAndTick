@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Todo">
         <activity
+            android:name=".welcomePage"
+            android:exported="true" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="true" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true" />
+        <activity
             android:name=".ViewRatesAdded"
             android:exported="true" />
         <activity

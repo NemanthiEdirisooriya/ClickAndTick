@@ -32,4 +32,17 @@
     <string name="btn_luxryv">Submit</string>
     <string name="tv_contactus">You are at the RIGHT place for Insurance quotations!!!</string>
     <string name="tv_home">You are at the RIGHT Place For Insurance Quotations !!!</string>
+    <string name="tv_logo">SIGN UP</string>
+    <string name="et_cName">Company Name</string>
+    <string name="et_cNo">Company Registered Number</string>
+    <string name="et_Email">Company Email</string>
+    <string name="et_password">Company Password</string>
+    <string name="btn_signup">SIGN UP</string>
+    <string name="tv_fPassword">Forgot Password?</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="tv_logo3">Don\'t have an Account?</string>
+    <string name="tv_logo4">SIGN UP</string>
+    <string name="et_email">Email</string>
+    <string name="et_pass">Password</string>
+    <string name="tv_logo5">As a company</string>
 </resources>
