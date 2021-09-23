@@ -14,11 +14,11 @@
             android:title="@string/menu_gallery" />
         <item
             android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_baseline_add_box_24"
+            android:icon="@drawable/ic_baseline_person_24"
             android:title="@string/menu_slideshow" />
         <item
             android:id="@+id/nav_ratings"
-            android:icon="@drawable/ic_baseline_star_rate_24"
+            android:icon="@drawable/ic_baseline_post_add_24"
             android:title="@string/menu_ratings" />
     </group>
 </menu>
