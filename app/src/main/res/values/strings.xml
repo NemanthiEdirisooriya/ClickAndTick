@@ -12,10 +12,10 @@
     <string name="menu_gallery">Notices</string>
     <string name="menu_slideshow">Companies</string>
     <string name="menu_ratings">Add Notices</string>
-    <string name="btn_Rating1">Click Here for Ratings</string>
+    <string name="btn_Rating1">Click Here for Add Notices</string>
     <string name="btn_notices">Click To View Notices</string>
     <string name="btn_homecom">"Just  one Step "</string>
-    <string name="btn_addrates">Click To Add Rates</string>
+    <string name="btn_addrates">Click To View Company details</string>
     <string name="tv_addRates0">      Add Your Rates Here </string>
     <string name="et_addRates1">Company name : </string>
     <string name="et_addRates2">Hybrid vehicles : </string>

@@ -17,6 +17,7 @@ import androidx.lifecycle.ViewModelProvider;
 import com.example.todo.AddRates;
 import com.example.todo.MainActivity;
 import com.example.todo.R;
+import com.example.todo.company_viewList;
 import com.example.todo.databinding.FragmentSlideshowBinding;
 
 public class SlideshowFragment extends Fragment {
@@ -36,7 +37,7 @@ public class SlideshowFragment extends Fragment {
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(getActivity() , AddRates.class);
+                Intent i = new Intent(getActivity() , company_viewList.class);
                 startActivity(i);
             }
         });
