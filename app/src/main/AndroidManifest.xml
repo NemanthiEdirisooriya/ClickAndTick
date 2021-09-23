@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Todo">
         <activity
+            android:name=".firstpage"
+            android:exported="true" />
+        <activity
+            android:name=".company_viewList"
+            android:exported="true" />
+        <activity
             android:name=".welcomePage"
             android:exported="true" />
         <activity
