@@ -97,7 +97,7 @@
         android:id="@+id/btn_signup"
         android:layout_width="149dp"
         android:layout_height="51dp"
-        android:layout_marginTop="48dp"
+        android:layout_marginTop="28dp"
         android:text="@string/btn_signup"
         app:backgroundTint="#F44336"
         app:layout_constraintEnd_toEndOf="parent"

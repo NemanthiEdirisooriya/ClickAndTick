@@ -1,17 +1,17 @@
 <resources>
-    <string name="app_name">todo</string>
+    <string name="app_name">ClickAndTick</string>
     <string name="title_activity_navigation_drawerc">Navigation_Drawerc</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">Android Studio</string>
-    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_title">UserAdmin</string>
+    <string name="nav_header_subtitle">useradmin@gmail.com</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
 
     <string name="menu_home">Home</string>
     <string name="menu_gallery">Notices</string>
-    <string name="menu_slideshow">Add Rates</string>
-    <string name="menu_ratings">Ratings and Review</string>
+    <string name="menu_slideshow">Companies</string>
+    <string name="menu_ratings">Add Notices</string>
     <string name="btn_Rating1">Click Here for Ratings</string>
     <string name="btn_notices">Click To View Notices</string>
     <string name="btn_homecom">"Just  one Step "</string>
@@ -26,8 +26,8 @@
     <string name="btn_addRates">Submit</string>
     <string name="invalid_rate">Please input the rate </string>
     <string name="tv_luxury0">Tick Your Luxury Items </string>
-    <string name="tv_luxury1">Labogini</string>
-    <string name="tv_luxury4">Porche</string>
+    <string name="tv_luxury1">Lamborghini</string>
+    <string name="tv_luxury4">Porsche</string>
     <string name="tv_luxury2">BMW</string>
     <string name="btn_luxryv">Submit</string>
     <string name="tv_contactus">You are at the RIGHT place for Insurance quotations!!!</string>

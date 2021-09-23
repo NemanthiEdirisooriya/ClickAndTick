@@ -33,24 +33,28 @@
 
     <Button
         android:id="@+id/btn_customer"
-        android:layout_width="246dp"
-        android:layout_height="74dp"
+        android:layout_width="122dp"
+        android:layout_height="104dp"
         android:layout_marginStart="82dp"
-        android:layout_marginTop="74dp"
+        android:layout_marginTop="32dp"
         android:layout_marginEnd="83dp"
+        android:background="@drawable/admin"
         android:text="CUSTOMER"
+        android:textColor="#000000"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tv_welcome1" />
 
     <Button
         android:id="@+id/btn_company"
-        android:layout_width="246dp"
-        android:layout_height="74dp"
+        android:layout_width="112dp"
+        android:layout_height="101dp"
         android:layout_marginStart="82dp"
-        android:layout_marginTop="46dp"
+        android:layout_marginTop="20dp"
         android:layout_marginEnd="83dp"
+        android:background="@drawable/ic_baseline_home_work_24"
         android:text="COMPANY"
+        android:textColor="#000000"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn_customer" />
