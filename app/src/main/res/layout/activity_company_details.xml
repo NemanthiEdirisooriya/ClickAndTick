@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Company_Details">
+
+    <TextView
+        android:id="@+id/tv_quote"
+        android:layout_width="439dp"
+        android:layout_height="73dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/tv_quote"
+        android:textAlignment="center"
+        android:textColor="@color/purple_500"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="512dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="40dp"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_quote">
+
+        <TextView
+            android:id="@+id/motorplus"
+            android:layout_width="match_parent"
+            android:layout_height="76dp"
+            android:text="@string/motorplus"
+            android:textColor="@color/black"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/ceylinco"
+            android:layout_width="match_parent"
+            android:layout_height="76dp"
+            android:text="@string/ceylinco"
+            android:textColor="@color/black"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/allianz"
+            android:layout_width="match_parent"
+            android:layout_height="76dp"
+            android:text="@string/allianz"
+            android:textColor="@color/black"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/fairfirst"
+            android:layout_width="match_parent"
+            android:layout_height="76dp"
+            android:text="@string/fairfirst"
+            android:textColor="@color/black"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/aia"
+            android:layout_width="match_parent"
+            android:layout_height="76dp"
+            android:text="@string/aia"
+            android:textColor="@color/black"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -3,29 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/Leo/AndroidStudioProjects/ClickAndTick/app/src/main/res/layout/activity_add_luxuryvehicles.xml" value="0.371875" />
-        <entry key="..\:/Users/Leo/AndroidStudioProjects/ClickAndTick/app/src/main/res/layout/activity_add_rates.xml" value="0.371875" />
-        <entry key="..\:/Users/Leo/AndroidStudioProjects/ClickAndTick/app/src/main/res/layout/activity_company_view_list.xml" value="0.371875" />
-        <entry key="..\:/Users/Leo/AndroidStudioProjects/ClickAndTick/app/src/main/res/layout/activity_contact_us.xml" value="0.371875" />
-        <entry key="..\:/Users/Leo/AndroidStudioProjects/ClickAndTick/app/src/main/res/layout/activity_edit_note.xml" value="0.371875" />
-        <entry key="..\:/Users/Leo/AndroidStudioProjects/ClickAndTick/app/src/main/res/layout/activity_firstpage.xml" value="0.371875" />
-        <entry key="..\:/Users/Leo/AndroidStudioProjects/ClickAndTick/app/src/main/res/layout/activity_login.xml" value="0.371875" />
-        <entry key="..\:/Users/Leo/AndroidStudioProjects/ClickAndTick/app/src/main/res/layout/activity_main.xml" value="0.371875" />
-        <entry key="..\:/Users/Leo/AndroidStudioProjects/ClickAndTick/app/src/main/res/layout/activity_navigation_drawerc.xml" value="0.371875" />
-        <entry key="..\:/Users/Leo/AndroidStudioProjects/ClickAndTick/app/src/main/res/layout/activity_notice_view_company.xml" value="0.371875" />
-        <entry key="..\:/Users/Leo/AndroidStudioProjects/ClickAndTick/app/src/main/res/layout/activity_register.xml" value="0.371875" />
-        <entry key="..\:/Users/Leo/AndroidStudioProjects/ClickAndTick/app/src/main/res/layout/activity_view_rates_added.xml" value="0.371875" />
-        <entry key="..\:/Users/Leo/AndroidStudioProjects/ClickAndTick/app/src/main/res/layout/activity_welcome_page.xml" value="0.371875" />
-        <entry key="..\:/Users/Leo/AndroidStudioProjects/ClickAndTick/app/src/main/res/layout/app_bar_navigation_drawerc.xml" value="0.371875" />
-        <entry key="..\:/Users/Leo/AndroidStudioProjects/ClickAndTick/app/src/main/res/layout/content_navigation_drawerc.xml" value="0.371875" />
-        <entry key="..\:/Users/Leo/AndroidStudioProjects/ClickAndTick/app/src/main/res/layout/fragment_gallery.xml" value="0.371875" />
-        <entry key="..\:/Users/Leo/AndroidStudioProjects/ClickAndTick/app/src/main/res/layout/fragment_home.xml" value="0.371875" />
-        <entry key="..\:/Users/Leo/AndroidStudioProjects/ClickAndTick/app/src/main/res/layout/fragment_ratings.xml" value="0.371875" />
-        <entry key="..\:/Users/Leo/AndroidStudioProjects/ClickAndTick/app/src/main/res/layout/fragment_slideshow.xml" value="0.371875" />
-        <entry key="..\:/Users/Leo/AndroidStudioProjects/ClickAndTick/app/src/main/res/layout/nav_header_navigation_drawerc.xml" value="0.371875" />
-        <entry key="..\:/Users/Leo/AndroidStudioProjects/ClickAndTick/app/src/main/res/layout/note_holder.xml" value="0.371875" />
-        <entry key="..\:/Users/Leo/AndroidStudioProjects/ClickAndTick/app/src/main/res/layout/note_input.xml" value="0.371875" />
-        <entry key="..\:/Users/Leo/AndroidStudioProjects/ClickAndTick/app/src/main/res/menu/activity_main_drawer.xml" value="0.371875" />
+
         <entry key="..\:/Users/Leo/AndroidStudioProjects/todo/app/src/main/res/drawable/add_button_shape.xml" value="0.38385416666666666" />
         <entry key="..\:/Users/Leo/AndroidStudioProjects/todo/app/src/main/res/drawable/background_gradient.xml" value="0.38385416666666666" />
         <entry key="..\:/Users/Leo/AndroidStudioProjects/todo/app/src/main/res/drawable/button_shape.xml" value="0.38385416666666666" />

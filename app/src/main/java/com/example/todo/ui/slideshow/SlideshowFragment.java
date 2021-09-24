@@ -15,7 +15,7 @@ import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
 
 import com.example.todo.AddRates;
-import com.example.todo.CustomerViewList;
+
 import com.example.todo.MainActivity;
 import com.example.todo.R;
 import com.example.todo.company_viewList;
