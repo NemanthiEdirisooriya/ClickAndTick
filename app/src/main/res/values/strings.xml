@@ -1,22 +1,22 @@
 <resources>
-    <string name="app_name">todo</string>
+    <string name="app_name">ClickAndTick</string>
     <string name="title_activity_navigation_drawerc">Navigation_Drawerc</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">Android Studio</string>
-    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_title">Tom Taylor</string>
+    <string name="nav_header_subtitle">tom566@gmail.com</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
 
     <string name="menu_home">Home</string>
     <string name="menu_gallery">Notices</string>
-    <string name="menu_slideshow">Add Rates</string>
+    <string name="menu_slideshow">Get Quote</string>
     <string name="menu_ratings">Ratings and Review</string>
     <string name="btn_Rating1">Click Here for Ratings</string>
     <string name="btn_notices">Click To View Notices</string>
     <string name="btn_homecom">"Just  one Step "</string>
-    <string name="btn_addrates">Click To Add Rates</string>
-    <string name="tv_addRates0">      Add Your Rates Here </string>
+    <string name="btn_addrates">Click To Get Quote</string>
+    <string name="tv_addRates0">Add Your Rates Here </string>
     <string name="et_addRates1">Company name : </string>
     <string name="et_addRates2">Hybrid vehicles : </string>
     <string name="et_addRates3">Wagon R : </string>
@@ -32,4 +32,83 @@
     <string name="btn_luxryv">Submit</string>
     <string name="tv_contactus">You are at the RIGHT place for Insurance quotations!!!</string>
     <string name="tv_home">You are at the RIGHT Place For Insurance Quotations !!!</string>
+    <string name="tv_1">Get your Motor Quotation easily</string>
+    <string name="tv_2">Vehicle Type* :</string>
+    <string name="tv_3">Make* :</string>
+    <string name="tv_4">Year of Manufactured* :</string>
+    <string name="tv_5">Fuel Type* :</string>
+    <string name="tv_6">Sum Insured* :</string>
+    <string name="pt_1">Enter Sum Insured</string>
+    <string name="tv_quote">Compare Insurance Quotes</string>
+    <string name="fairfirst">Fairfirst Insurance</string>
+    <string name="aia">AIA Insurance</string>
+    <string name="motorplus">Motor Plus</string>
+    <string name="ceylinco">Ceylinco Insurance</string>
+    <string name="allianz">Allianz Sri lanka</string>
+
+
+    <string name="tv_logo">SIGN UP</string>
+    <string name="et_cName">Company Name</string>
+    <string name="et_cNo">Company Registered Number</string>
+    <string name="et_Email">Company Email</string>
+    <string name="et_password">Company Password</string>
+    <string name="btn_signup">SIGN UP</string>
+    <string name="tv_fPassword">Forgot Password?</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="tv_logo3">Don\'t have an Account?</string>
+    <string name="tv_logo4">SIGN UP</string>
+    <string name="et_email">Email</string>
+    <string name="et_pass">Password</string>
+    <string name="tv_logo5">As a company</string>
+
+
+
+    <string-array name="vehicletype">
+        <item>Select</item>
+        <item>Car</item>
+        <item>Luxury Vehicle</item>
+        <item>Motorcycle</item>
+    </string-array>
+    <string-array name="make">
+        <item>Select</item>
+        <item>Toyota</item>
+        <item>Nissan</item>
+        <item>BMW</item>
+        <item>Honda</item>
+        <item>Audi</item>
+        <item>Suzuki</item>
+        <item>Bajaj</item>
+        <item>Jaguar</item>
+    </string-array>
+    <string-array name="yom">
+        <item>Select</item>
+        <item>2000</item>
+        <item>2001</item>
+        <item>2002</item>
+        <item>2003</item>
+        <item>2004</item>
+        <item>2005</item>
+        <item>2006</item>
+        <item>2007</item>
+        <item>2008</item>
+        <item>2009</item>
+        <item>2010</item>
+        <item>2011</item>
+        <item>2012</item>
+        <item>2013</item>
+        <item>2014</item>
+        <item>2015</item>
+        <item>2016</item>
+        <item>2017</item>
+        <item>2018</item>
+        <item>2019</item>
+        <item>2020</item>
+        <item>2021</item>
+    </string-array>
+    <string-array name="fuel">
+        <item>Select</item>
+        <item>Petrol</item>
+        <item>Diesel</item>
+        <item>Electric</item>
+    </string-array>
 </resources>

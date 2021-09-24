@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".GetQuote">
+
+    <LinearLayout
+        android:id="@+id/btn_getQ"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="70dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/tv_1"
+            android:layout_width="match_parent"
+            android:layout_height="82dp"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/amarante"
+            android:text="@string/tv_1"
+            android:textAlignment="center"
+            android:textColor="@color/purple_500"
+            android:textSize="28sp" />
+
+        <TextView
+            android:id="@+id/tv_2"
+            android:layout_width="174dp"
+            android:layout_height="43dp"
+            android:text="@string/tv_2"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <Spinner
+            android:id="@+id/sptype"
+            android:layout_width="331dp"
+            android:layout_height="48dp"
+            android:entries="@array/vehicletype" />
+
+        <TextView
+            android:id="@+id/tv_3"
+            android:layout_width="170dp"
+            android:layout_height="43dp"
+            android:text="@string/tv_3"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <Spinner
+            android:id="@+id/spmake"
+            android:layout_width="331dp"
+            android:layout_height="48dp"
+            android:entries="@array/make" />
+
+        <TextView
+            android:id="@+id/tv_4"
+            android:layout_width="272dp"
+            android:layout_height="43dp"
+            android:text="@string/tv_4"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <Spinner
+            android:id="@+id/spyom"
+            android:layout_width="331dp"
+            android:layout_height="48dp"
+            android:entries="@array/yom" />
+
+        <TextView
+            android:id="@+id/tv_5"
+            android:layout_width="272dp"
+            android:layout_height="43dp"
+            android:text="@string/tv_5"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <Spinner
+            android:id="@+id/spfuel"
+            android:layout_width="331dp"
+            android:layout_height="48dp"
+            android:entries="@array/fuel" />
+
+        <TextView
+            android:id="@+id/tv_6"
+            android:layout_width="272dp"
+            android:layout_height="43dp"
+            android:text="@string/tv_6"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/pt_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/pt_1"
+            android:inputType="textPersonName"
+            android:minHeight="48dp" />
+
+        <Button
+            android:id="@+id/buttonQ"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:text="Get Quote"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.46"
+            app:layout_constraintStart_toStartOf="parent" />
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

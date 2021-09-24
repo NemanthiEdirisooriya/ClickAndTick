@@ -10,6 +10,24 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Todo">
         <activity
+            android:name=".RegisterActivity"
+            android:exported="true" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Company_Details"
+            android:exported="true" />
+        <activity
+            android:name=".GetQuote"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name=".ViewRatesAdded"
             android:exported="true" />
         <activity
@@ -32,6 +50,17 @@
         <activity
             android:name=".EditNote"
             android:exported="true" />
+
+
+        <activity
+            android:name=".welcomePage"
+            android:exported="true" />
+        <activity
+            android:name=".firstpage"
+            android:exported="true" />
+
+
+
         <activity
             android:name=".MainActivity"
             android:exported="true">

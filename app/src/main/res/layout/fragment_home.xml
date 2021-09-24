@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/c70be1fc_2e82_49c5_8b04_d3442a6621ba"
     tools:context=".ui.home.HomeFragment">
 
     <TextView
@@ -25,7 +24,7 @@
         android:layout_width="290dp"
         android:layout_height="221dp"
         android:layout_marginStart="39dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="16dp"
         android:layout_marginEnd="64dp"
         android:fontFamily="@font/aclonica"
         android:gravity="center"
@@ -45,7 +44,7 @@
         android:layout_marginTop="19dp"
         android:layout_marginEnd="29dp"
         android:layout_marginBottom="41dp"
-        android:src="@drawable/_1ca64b2_fc72_4aaa_a741_6f6533981750"
+        android:src="@drawable/home"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

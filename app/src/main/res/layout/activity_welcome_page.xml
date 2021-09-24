@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".welcomePage">
+
+    <TextView
+        android:id="@+id/tv_welcome"
+        android:layout_width="212dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="48dp"
+        android:fontFamily="@font/amarante"
+        android:text="WELCOME"
+        android:textColor="@color/black"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/tv_welcome1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_welcome1"
+        android:layout_width="321dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="40dp"
+        android:text="How do yo wish to continue?"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_welcome" />
+
+    <Button
+        android:id="@+id/btn_customer"
+        android:layout_width="122dp"
+        android:layout_height="104dp"
+        android:layout_marginStart="82dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="83dp"
+        android:background="@drawable/microsoftteams_image__2_"
+        android:text="CUSTOMER"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_welcome1" />
+
+    <Button
+        android:id="@+id/btn_company"
+        android:layout_width="112dp"
+        android:layout_height="101dp"
+        android:layout_marginStart="82dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="83dp"
+        android:background="@drawable/ic_baseline_home_work_24"
+        android:text="COMPANY"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_customer" />
+</androidx.constraintlayout.widget.ConstraintLayout>
