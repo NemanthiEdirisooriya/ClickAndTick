@@ -11,6 +11,7 @@
         android:theme="@style/Theme.Todo">
         <activity
 
+
         <activity
             android:name=".ViewRatesAdded"
             android:exported="true" />

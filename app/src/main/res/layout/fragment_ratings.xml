@@ -24,8 +24,8 @@
 
     <Button
         android:id="@+id/btn_rating"
-        android:layout_width="333dp"
-        android:layout_height="72dp"
+        android:layout_width="361dp"
+        android:layout_height="51dp"
         android:layout_marginStart="158dp"
         android:layout_marginTop="1dp"
         android:layout_marginEnd="159dp"
@@ -36,8 +36,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/text_ratings" />
 
-    <ImageView
 
 </androidx.constraintlayout.widget.ConstraintLayout>
