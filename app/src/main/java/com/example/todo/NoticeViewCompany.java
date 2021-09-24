@@ -23,8 +23,7 @@ public class NoticeViewCompany extends AppCompatActivity {
 
         while(cursor.moveToNext()){
 
-            stringBuilder.append("Notices ......"+"\n Title  :" + cursor.getString(1)+"\n Description  :" + cursor.getString(2)
-           +"\n"+"\n" );
+
 
             textView.setText(stringBuilder);
         }

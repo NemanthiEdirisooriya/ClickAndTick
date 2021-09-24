@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/_2f5c232_60a6_475c_bf6a_08cc6421d28d"
+    android:background="@drawable/c70be1fc_2e82_49c5_8b04_d3442a6621ba"
     tools:context=".ui.slideshow.SlideshowFragment">
 
     <TextView
@@ -34,6 +34,5 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.525"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/text_slideshow"
-        app:layout_constraintVertical_bias="0.0" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

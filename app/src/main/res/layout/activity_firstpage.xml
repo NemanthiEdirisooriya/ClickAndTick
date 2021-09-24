@@ -5,24 +5,26 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/c70be1fc_2e82_49c5_8b04_d3442a6621ba"
-    tools:context=".NoticeViewCompany">
+    tools:context=".firstpage">
 
-    <TextView
-        android:id="@+id/tv_noticeview"
-        android:layout_width="391dp"
-        android:layout_height="634dp"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginEnd="2dp"
-        android:layout_marginBottom="17dp"
-        android:fontFamily="sans-serif-black"
-        android:text="TextView"
-        android:textColor="#131313"
-        android:textSize="20sp"
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="245dp"
+        android:layout_height="86dp"
+        android:layout_marginBottom="18dp"
+        android:background="@drawable/logo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView8" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/button2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        app:srcCompat="@drawable/front" />
 </androidx.constraintlayout.widget.ConstraintLayout>

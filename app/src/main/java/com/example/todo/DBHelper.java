@@ -70,4 +70,11 @@ public class DBHelper extends SQLiteOpenHelper {
         return cursor;
     }
 
+    public Cursor Viewd(){
+
+        SQLiteDatabase sqLiteDatabase =  this.getReadableDatabase();
+        Cursor cursor = sqLiteDatabase.rawQuery(" select *  from  users " ,null);
+        return cursor;
+    }
+
     }

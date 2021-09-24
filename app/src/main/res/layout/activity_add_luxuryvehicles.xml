@@ -12,7 +12,7 @@
         android:layout_width="138dp"
         android:layout_height="60dp"
         android:layout_marginStart="44dp"
-        android:layout_marginTop="256dp"
+        android:layout_marginTop="252dp"
         android:fontFamily="sans-serif-black"
         android:text="@string/tv_luxury2"
         android:textColor="#191818"
@@ -22,10 +22,10 @@
 
     <CheckBox
         android:id="@+id/checkBox4"
-        android:layout_width="89dp"
-        android:layout_height="72dp"
+        android:layout_width="86dp"
+        android:layout_height="55dp"
         android:layout_marginStart="74dp"
-        android:layout_marginTop="244dp"
+        android:layout_marginTop="260dp"
         android:layout_marginEnd="45dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
@@ -47,13 +47,15 @@
         android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/tv_luxury2"
         app:layout_constraintEnd_toStartOf="@+id/checkBox3"
+        app:layout_constraintHorizontal_bias="0.105"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv_luxury0" />
+        app:layout_constraintTop_toBottomOf="@+id/tv_luxury0"
+        app:layout_constraintVertical_bias="0.0" />
 
     <CheckBox
         android:id="@+id/checkBox3"
-        android:layout_width="86dp"
-        android:layout_height="54dp"
+        android:layout_width="87dp"
+        android:layout_height="62dp"
         android:layout_marginStart="74dp"
         android:layout_marginTop="148dp"
         android:layout_marginEnd="45dp"
@@ -96,14 +98,15 @@
 
     <CheckBox
         android:id="@+id/checkBox2"
-        android:layout_width="89dp"
-        android:layout_height="72dp"
+        android:layout_width="88dp"
+        android:layout_height="58dp"
         android:layout_marginStart="74dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="44dp"
         android:layout_marginEnd="45dp"
         android:shadowColor="@color/black"
         android:textColor="#131313"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toEndOf="@+id/tv_luxury1"
         app:layout_constraintTop_toBottomOf="@+id/tv_luxury0" />
 
@@ -118,7 +121,7 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tv_luxury2"
-        app:layout_constraintVertical_bias="0.03"
+        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/ic_baseline_add_circle_24" />
 
     <Button

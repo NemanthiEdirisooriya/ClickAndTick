@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
 
                 new AlertDialog.Builder(MainActivity.this)
                         .setView(viewInput)
-                        .setTitle("Add notes")
+                        .setTitle("Add notice")
                         .setPositiveButton("Add", new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialogInterface, int i) {
@@ -63,10 +63,10 @@ public class MainActivity extends AppCompatActivity {
                                 boolean isInserted = new NoteHandler(MainActivity.this).create(note);
 
                                 if (isInserted) {
-                                    Toast.makeText(MainActivity.this, "Note saved", Toast.LENGTH_SHORT).show();
+                                    Toast.makeText(MainActivity.this, "Notice saved", Toast.LENGTH_SHORT).show();
                                     loadNotes();
                                 } else {
-                                    Toast.makeText(MainActivity.this, "Unable to save note", Toast.LENGTH_SHORT).show();
+                                    Toast.makeText(MainActivity.this, "Unable to save notice", Toast.LENGTH_SHORT).show();
                                 }
                                 dialogInterface.cancel();
 
