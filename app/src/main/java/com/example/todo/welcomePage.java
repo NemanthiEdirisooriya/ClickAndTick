@@ -17,7 +17,7 @@ public class welcomePage extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_welcome_page);
 
-        welcome=findViewById(R.id.btn_customer);
+
         welcome.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

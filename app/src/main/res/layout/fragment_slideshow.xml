@@ -37,10 +37,5 @@
         app:layout_constraintTop_toBottomOf="@+id/text_slideshow" />
 
     <ImageView
-        android:id="@+id/imageView7"
-        android:layout_width="419dp"
-        android:layout_height="419dp"
-        android:src="@drawable/quote"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

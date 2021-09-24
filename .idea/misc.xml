@@ -3,26 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/Evmini/Desktop/ClickAndTick/app/src/main/res/layout/activity_add_luxuryvehicles.xml" value="0.19444444444444445" />
-        <entry key="..\:/Users/Evmini/Desktop/ClickAndTick/app/src/main/res/layout/activity_add_rates.xml" value="0.23425925925925925" />
-        <entry key="..\:/Users/Evmini/Desktop/ClickAndTick/app/src/main/res/layout/activity_company_details.xml" value="0.19444444444444445" />
-        <entry key="..\:/Users/Evmini/Desktop/ClickAndTick/app/src/main/res/layout/activity_contact_us.xml" value="0.2212962962962963" />
-        <entry key="..\:/Users/Evmini/Desktop/ClickAndTick/app/src/main/res/layout/activity_firstpage.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/Evmini/Desktop/ClickAndTick/app/src/main/res/layout/activity_get_quote.xml" value="0.23425925925925925" />
-        <entry key="..\:/Users/Evmini/Desktop/ClickAndTick/app/src/main/res/layout/activity_login.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/Evmini/Desktop/ClickAndTick/app/src/main/res/layout/activity_main.xml" value="0.23425925925925925" />
-        <entry key="..\:/Users/Evmini/Desktop/ClickAndTick/app/src/main/res/layout/activity_navigation_drawerc.xml" value="0.23425925925925925" />
-        <entry key="..\:/Users/Evmini/Desktop/ClickAndTick/app/src/main/res/layout/activity_notice_view_company.xml" value="0.2212962962962963" />
-        <entry key="..\:/Users/Evmini/Desktop/ClickAndTick/app/src/main/res/layout/activity_register.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/Evmini/Desktop/ClickAndTick/app/src/main/res/layout/activity_view_rates_added.xml" value="0.2212962962962963" />
-        <entry key="..\:/Users/Evmini/Desktop/ClickAndTick/app/src/main/res/layout/activity_welcome_page.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/Evmini/Desktop/ClickAndTick/app/src/main/res/layout/app_bar_navigation_drawerc.xml" value="0.2212962962962963" />
-        <entry key="..\:/Users/Evmini/Desktop/ClickAndTick/app/src/main/res/layout/content_navigation_drawerc.xml" value="0.18055555555555555" />
-        <entry key="..\:/Users/Evmini/Desktop/ClickAndTick/app/src/main/res/layout/fragment_gallery.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/Evmini/Desktop/ClickAndTick/app/src/main/res/layout/fragment_home.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/Evmini/Desktop/ClickAndTick/app/src/main/res/layout/fragment_ratings.xml" value="0.19444444444444445" />
-        <entry key="..\:/Users/Evmini/Desktop/ClickAndTick/app/src/main/res/layout/fragment_slideshow.xml" value="0.19444444444444445" />
-        <entry key="..\:/Users/Evmini/Desktop/ClickAndTick/app/src/main/res/layout/nav_header_navigation_drawerc.xml" value="0.19444444444444445" />
+
         <entry key="..\:/Users/Leo/AndroidStudioProjects/todo/app/src/main/res/drawable/add_button_shape.xml" value="0.38385416666666666" />
         <entry key="..\:/Users/Leo/AndroidStudioProjects/todo/app/src/main/res/drawable/background_gradient.xml" value="0.38385416666666666" />
         <entry key="..\:/Users/Leo/AndroidStudioProjects/todo/app/src/main/res/drawable/button_shape.xml" value="0.38385416666666666" />
@@ -51,6 +32,11 @@
         <entry key="..\:/Users/User/AndroidStudioProjects/todo/app/src/main/res/layout/fragment_slideshow.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/User/AndroidStudioProjects/todo/app/src/main/res/menu/activity_main_drawer.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/User/AndroidStudioProjects/todo/app/src/main/res/menu/navigation__drawerc.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/User/android_workplace/ClickAndTick/app/src/main/res/drawable/ic_edit.xml" value="0.1" />
+        <entry key="..\:/Users/User/android_workplace/ClickAndTick/app/src/main/res/drawable/ic_email.xml" value="0.1" />
+        <entry key="..\:/Users/User/android_workplace/ClickAndTick/app/src/main/res/layout/activity_login.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/User/android_workplace/ClickAndTick/app/src/main/res/layout/activity_register.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/User/android_workplace/ClickAndTick/app/src/main/res/layout/activity_welcome_page.xml" value="0.25416666666666665" />
       </map>
     </option>
   </component>
