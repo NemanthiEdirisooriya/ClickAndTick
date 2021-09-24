@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/c70be1fc_2e82_49c5_8b04_d3442a6621ba"
+
     tools:context=".ui.Ratings.RatingsFragment">
 
     <TextView
@@ -24,30 +24,17 @@
 
     <Button
         android:id="@+id/btn_rating"
-        android:layout_width="333dp"
-        android:layout_height="72dp"
+        android:layout_width="361dp"
+        android:layout_height="51dp"
         android:layout_marginStart="158dp"
         android:layout_marginTop="1dp"
         android:layout_marginEnd="159dp"
         android:layout_marginBottom="495dp"
         android:text="@string/btn_Rating1"
-        android:textSize="20sp"
+        android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/text_ratings" />
-
-    <ImageView
-        android:id="@+id/imageView7"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginEnd="16dp"
-        android:src="@drawable/add_notices"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/text_ratings" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
