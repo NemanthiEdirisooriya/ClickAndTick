@@ -1,10 +1,10 @@
 <resources>
-    <string name="app_name">todo</string>
+    <string name="app_name">ClickAndTick</string>
     <string name="title_activity_navigation_drawerc">Navigation_Drawerc</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">Android Studio</string>
-    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_title">Continental Insurance LTD</string>
+    <string name="nav_header_subtitle">insurance@gmail.com</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
 
@@ -16,18 +16,18 @@
     <string name="btn_notices">Click To View Notices</string>
     <string name="btn_homecom">"Just  one Step "</string>
     <string name="btn_addrates">Click To Add Rates</string>
-    <string name="tv_addRates0">      Add Your Rates Here </string>
-    <string name="et_addRates1">Company name : </string>
-    <string name="et_addRates2">Hybrid vehicles : </string>
-    <string name="et_addRates3">Wagon R : </string>
-    <string name="et_addRates4">Cars: </string>
-    <string name="et_addRates5"> Luxury Vehicles : </string>
-    <string name="et_addRates6">Leaf cars : </string>
+    <string name="tv_addRates0">Add Your Rates Here </string>
+    <string name="et_addRates1">Add Your company name  here </string>
+    <string name="et_addRates2">Add Hybrid vehicles rate </string>
+    <string name="et_addRates3">Add Wagon R  rate </string>
+    <string name="et_addRates4">Add Motor Cars rate </string>
+    <string name="et_addRates5">Add Luxury Vehicles rate </string>
+    <string name="et_addRates6">Add Leaf cars rates </string>
     <string name="btn_addRates">Submit</string>
     <string name="invalid_rate">Please input the rate </string>
     <string name="tv_luxury0">Tick Your Luxury Items </string>
-    <string name="tv_luxury1">Labogini</string>
-    <string name="tv_luxury4">Porche</string>
+    <string name="tv_luxury1">Mercedes-Benz</string>
+    <string name="tv_luxury4">Porsche</string>
     <string name="tv_luxury2">BMW</string>
     <string name="btn_luxryv">Submit</string>
     <string name="tv_contactus">You are at the RIGHT place for Insurance quotations!!!</string>
@@ -45,4 +45,5 @@
     <string name="et_email">Email</string>
     <string name="et_pass">Password</string>
     <string name="tv_logo5">As a company</string>
+    <string name="tv_noticeview">No New Notices !!!</string>
 </resources>

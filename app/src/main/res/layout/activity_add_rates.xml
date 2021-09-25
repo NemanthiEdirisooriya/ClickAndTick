@@ -5,16 +5,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_gravity="center|end"
-    android:background="@drawable/c70be1fc_2e82_49c5_8b04_d3442a6621ba"
     tools:context=".AddRates">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
-        android:background="@drawable/c70be1fc_2e82_49c5_8b04_d3442a6621ba"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -26,7 +25,7 @@
             android:id="@+id/tv_addRates0"
             android:layout_width="match_parent"
             android:layout_height="38dp"
-            android:fontFamily="sans-serif-black"
+            android:fontFamily="@font/adamina"
             android:gravity="center"
             android:padding="5dp"
             android:text="@string/tv_addRates0"
@@ -39,9 +38,9 @@
             android:layout_height="75dp"
             android:ems="10"
             android:fontFamily="sans-serif-black"
-            android:inputType="textPersonName"
+            android:hint="@string/et_addRates1"
+            android:inputType="text"
             android:padding="10dp"
-            android:text="@string/et_addRates1"
             android:textColor="#0C0C0C"
             android:textSize="20sp" />
 
@@ -51,9 +50,9 @@
             android:layout_height="75dp"
             android:ems="10"
             android:fontFamily="sans-serif-black"
-            android:inputType="textPersonName"
+            android:hint="@string/et_addRates2"
+            android:inputType="numberDecimal"
             android:padding="10dp"
-            android:text="@string/et_addRates2"
             android:textColor="#1C1C1B"
             android:textSize="20sp" />
 
@@ -63,9 +62,9 @@
             android:layout_height="75dp"
             android:ems="10"
             android:fontFamily="sans-serif-black"
-            android:inputType="textPersonName"
+            android:hint="@string/et_addRates3"
+            android:inputType="numberDecimal"
             android:padding="10dp"
-            android:text="@string/et_addRates3"
             android:textColor="#121211"
             android:textSize="20sp" />
 
@@ -75,9 +74,9 @@
             android:layout_height="75dp"
             android:ems="10"
             android:fontFamily="sans-serif-black"
-            android:inputType="textPersonName"
+            android:hint="@string/et_addRates4"
+            android:inputType="numberDecimal"
             android:padding="10dp"
-            android:text="@string/et_addRates4"
             android:textColor="#191918"
             android:textSize="20sp" />
 
@@ -87,9 +86,9 @@
             android:layout_height="75dp"
             android:ems="10"
             android:fontFamily="sans-serif-black"
-            android:inputType="textPersonName"
+            android:hint="@string/et_addRates5"
+            android:inputType="numberDecimal"
             android:padding="10dp"
-            android:text="@string/et_addRates5"
             android:textColor="#171716"
             android:textSize="20sp" />
 
@@ -99,20 +98,21 @@
             android:layout_height="75dp"
             android:ems="10"
             android:fontFamily="sans-serif-black"
-            android:inputType="textPersonName"
+            android:hint="@string/et_addRates6"
+            android:inputType="numberDecimal"
             android:padding="10dp"
-            android:text="@string/et_addRates6"
             android:textColor="#0B0B0A"
             android:textSize="20sp" />
 
         <Button
             android:id="@+id/btn_addRates"
-            android:layout_width="176dp"
-            android:layout_height="70dp"
+            android:layout_width="147dp"
+            android:layout_height="wrap_content"
             android:layout_gravity="center|right"
             android:padding="10dp"
             android:text="@string/btn_addRates"
             android:textSize="20sp" />
+
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

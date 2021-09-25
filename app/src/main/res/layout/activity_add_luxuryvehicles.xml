@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/c70be1fc_2e82_49c5_8b04_d3442a6621ba"
     tools:context=".AddLuxuryvehicles">
 
     <TextView
@@ -72,7 +71,7 @@
         android:layout_marginStart="54dp"
         android:layout_marginTop="48dp"
         android:layout_marginEnd="54dp"
-        android:fontFamily="sans-serif-black"
+        android:fontFamily="@font/cantata_one"
         android:gravity="center"
         android:text="@string/tv_luxury0"
         android:textColor="#A61717"
@@ -83,8 +82,8 @@
 
     <TextView
         android:id="@+id/tv_luxury1"
-        android:layout_width="138dp"
-        android:layout_height="60dp"
+        android:layout_width="160dp"
+        android:layout_height="58dp"
         android:layout_marginStart="46dp"
         android:layout_marginTop="45dp"
         android:fontFamily="sans-serif-black"
@@ -96,8 +95,8 @@
 
     <CheckBox
         android:id="@+id/checkBox2"
-        android:layout_width="89dp"
-        android:layout_height="72dp"
+        android:layout_width="103dp"
+        android:layout_height="62dp"
         android:layout_marginStart="74dp"
         android:layout_marginTop="32dp"
         android:layout_marginEnd="45dp"

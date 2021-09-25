@@ -13,13 +13,13 @@
             android:name=".welcomePage"
             android:exported="true" />
         <activity
+            android:name=".firstpage"
+            android:exported="true" />
+        <activity
             android:name=".RegisterActivity"
             android:exported="true" />
         <activity
             android:name=".LoginActivity"
-            android:exported="true" />
-        <activity
-            android:name=".ViewRatesAdded"
             android:exported="true" />
         <activity
             android:name=".Contact_us"

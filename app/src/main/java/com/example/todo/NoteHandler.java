@@ -80,13 +80,17 @@ public class NoteHandler extends DatabaseHelper {
         db.close();
         return note;
     }
+
+
+
     public boolean update(Note note){
 
         ContentValues values = new ContentValues();
         values.put("title",note.getTitle());
         values.put("description",note.getDescription());
         SQLiteDatabase db = this.getWritableDatabase();
-        boolean isSuccessfull = db.update("Note",values,"id='"+note.getId()+"'",null) > 0;
+        boolean isSuccessfull = db.update("Note",values,"id='"+note.getId()+"'",
+                null) > 0;
         db.close();
         return isSuccessfull;
     }

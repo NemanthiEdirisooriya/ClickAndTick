@@ -4,19 +4,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background"
     tools:context=".welcomePage">
 
     <TextView
         android:id="@+id/tv_welcome"
-        android:layout_width="245dp"
-        android:layout_height="69dp"
-        android:layout_marginTop="44dp"
+        android:layout_width="242dp"
+        android:layout_height="76dp"
+        android:layout_marginTop="48dp"
+        android:fontFamily="@font/amarante"
         android:text="WELCOME"
         android:textColor="@color/black"
         android:textSize="48sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -25,7 +26,7 @@
         android:layout_width="321dp"
         android:layout_height="63dp"
         android:layout_marginTop="40dp"
-        android:text="How do yo want to continue?"
+        android:text="How do yo wish to continue?"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -33,24 +34,28 @@
 
     <Button
         android:id="@+id/btn_customer"
-        android:layout_width="246dp"
-        android:layout_height="74dp"
+        android:layout_width="122dp"
+        android:layout_height="104dp"
         android:layout_marginStart="82dp"
-        android:layout_marginTop="74dp"
+        android:layout_marginTop="52dp"
         android:layout_marginEnd="83dp"
+        android:background="@drawable/microsoftteams_image__1_"
         android:text="CUSTOMER"
+        android:textColor="#000000"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tv_welcome1" />
 
     <Button
         android:id="@+id/btn_company"
-        android:layout_width="246dp"
-        android:layout_height="74dp"
+        android:layout_width="112dp"
+        android:layout_height="101dp"
         android:layout_marginStart="82dp"
-        android:layout_marginTop="46dp"
+        android:layout_marginTop="36dp"
         android:layout_marginEnd="83dp"
+        android:background="@drawable/ic_baseline_home_work_24"
         android:text="COMPANY"
+        android:textColor="#000000"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn_customer" />

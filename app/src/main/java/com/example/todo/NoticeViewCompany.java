@@ -13,17 +13,17 @@ public class NoticeViewCompany extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_notice_view_company);
 
-        DatabaseHelper dbhelper  = new DatabaseHelper(this);
+        DatabaseHelper db = new DatabaseHelper(this);
 
         TextView  textView =  findViewById(R.id.tv_noticeview);
 
-        Cursor cursor = dbhelper.Viewdata();
+        Cursor cursor = db.Viewdata();
 
         StringBuilder stringBuilder = new StringBuilder();
 
         while(cursor.moveToNext()){
 
-            stringBuilder.append("Reviews ......"+"\n Description  :" + cursor.getString(1)+"\n"
+            stringBuilder.append("Reviews ......"+ "\n Company Name : " +cursor.getString(1)   +"\n Description  :" + cursor.getString(2)+"\n"
            +"\n"+"\n" );
 
             textView.setText(stringBuilder);

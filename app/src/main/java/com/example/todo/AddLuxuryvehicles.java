@@ -26,7 +26,7 @@ public class AddLuxuryvehicles extends AppCompatActivity {
             public void onClick(View view) {
                 Toast.makeText(getApplicationContext(), "Luxury vehicles  Successfully Added!! ", Toast.LENGTH_SHORT).show();
 
-                Intent i = new Intent(getApplicationContext(), ViewRatesAdded.class);
+                Intent i = new Intent(getApplicationContext(), Navigation_Drawerc.class);
                startActivity(i);
             }
         });
