@@ -23,7 +23,7 @@ public class company_viewList extends AppCompatActivity {
 
         while(cursor.moveToNext()){
 
-            stringBuilder.append("Customer details : ......"+"\n Customer Name  :" + cursor.getString(0)+"\n Contact Number  :" + cursor.getString(1)+"\n Email address :" + cursor.getString(2)+"\n Password :" + cursor.getString(3)
+            stringBuilder.append("Company details : ......"+"\n Company Name  :" + cursor.getString(0)+"\n Contact Number  :" + cursor.getString(1)+"\n Email address :" + cursor.getString(2)+"\n Password :" + cursor.getString(3)
                     +"\n"+"\n" );
 
             textView.setText(stringBuilder);

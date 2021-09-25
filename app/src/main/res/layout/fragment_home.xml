@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/c70be1fc_2e82_49c5_8b04_d3442a6621ba"
     tools:context=".ui.home.HomeFragment">
 
     <TextView
@@ -41,8 +40,8 @@
         android:id="@+id/imageView3"
         android:layout_width="386dp"
         android:layout_height="570dp"
-        android:layout_marginStart="28dp"
-        android:layout_marginTop="108dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="112dp"
         android:src="@drawable/homn"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
