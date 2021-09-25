@@ -4,18 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+
     tools:context=".RegisterActivity">
 
     <TextView
         android:id="@+id/tv_logo"
-        android:layout_width="169dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="16dp"
-        android:fontFamily="@font/amarante"
-        android:gravity="center"
-        android:text="@string/tv_logo"
-        android:textColor="@color/black"
-        android:textSize="48sp"
+
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.52"
@@ -29,10 +23,7 @@
         android:layout_marginStart="44dp"
         android:layout_marginTop="26dp"
         android:layout_marginEnd="45dp"
-        android:drawableLeft="@drawable/ic_person"
-        android:drawablePadding="10dp"
-        android:ems="10"
-        android:hint="Company Name"
+
         android:inputType="textPersonName"
         android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
@@ -45,12 +36,6 @@
         android:layout_width="304dp"
         android:layout_height="56dp"
         android:layout_marginStart="44dp"
-        android:layout_marginTop="24dp"
-        android:layout_marginEnd="45dp"
-        android:drawableLeft="@drawable/ic_baseline_local_phone_24"
-        android:drawablePadding="10dp"
-        android:ems="10"
-        android:hint="Contact Number"
 
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -61,15 +46,7 @@
         android:layout_width="304dp"
         android:layout_height="56dp"
         android:layout_marginStart="44dp"
-        android:layout_marginLeft="44dp"
-        android:layout_marginTop="24dp"
-        android:layout_marginEnd="45dp"
-        android:layout_marginRight="45dp"
-        android:drawableLeft="@drawable/ic_email"
-        android:drawablePadding="10dp"
-        android:ems="10"
-        android:hint="Company Email"
-        android:inputType="textEmailAddress"
+
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/et_rNo" />
@@ -79,11 +56,7 @@
         android:layout_width="305dp"
         android:layout_height="57dp"
         android:layout_marginStart="44dp"
-        android:layout_marginLeft="44dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="44dp"
-        android:layout_marginRight="44dp"
-        android:drawableLeft="@drawable/ic_security"
+
         android:drawablePadding="10dp"
         android:ems="10"
         android:hint="Password"
@@ -96,7 +69,7 @@
         android:id="@+id/btn_signup"
         android:layout_width="149dp"
         android:layout_height="51dp"
-        android:layout_marginTop="28dp"
+
         android:text="@string/btn_signup"
         app:backgroundTint="#F44336"
         app:layout_constraintEnd_toEndOf="parent"
@@ -108,7 +81,7 @@
         android:layout_width="179dp"
         android:layout_height="32dp"
         android:layout_marginStart="97dp"
-        android:layout_marginTop="16dp"
+
         android:layout_marginEnd="84dp"
         android:gravity="center"
         android:text="Already have an account"
@@ -121,12 +94,7 @@
 
     <TextView
         android:id="@+id/tv_logoC"
-        android:layout_width="127dp"
-        android:layout_height="43dp"
-        android:layout_marginTop="8dp"
-        android:fontFamily="@font/cantata_one"
-        android:gravity="center"
-        android:text="As company"
+
         android:textColor="@color/black"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"

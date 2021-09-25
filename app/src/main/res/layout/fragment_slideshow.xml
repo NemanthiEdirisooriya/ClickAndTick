@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+
     tools:context=".ui.slideshow.SlideshowFragment">
 
     <TextView
@@ -21,8 +22,7 @@
 
     <Button
         android:id="@+id/btn_addrates"
-        android:layout_width="340dp"
-        android:layout_height="65dp"
+
         android:layout_marginStart="73dp"
         android:layout_marginTop="20dp"
         android:layout_marginEnd="70dp"
@@ -31,17 +31,8 @@
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.531"
+        app:layout_constraintHorizontal_bias="0.525"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/text_slideshow" />
 
-    <ImageView
-        android:id="@+id/imageView6"
-        android:layout_width="370dp"
-        android:layout_height="474dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="4dp"
-        android:src="@drawable/add_rates"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_addrates" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

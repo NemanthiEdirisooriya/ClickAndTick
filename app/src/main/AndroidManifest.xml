@@ -10,20 +10,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Todo">
         <activity
-            android:name=".firstpage"
-            android:exported="true" />
-        <activity
-            android:name=".company_viewList"
-            android:exported="true" />
-        <activity
-            android:name=".welcomePage"
-            android:exported="true" />
-        <activity
-            android:name=".RegisterActivity"
-            android:exported="true" />
-        <activity
-            android:name=".LoginActivity"
-            android:exported="true" />
+
+
         <activity
             android:name=".ViewRatesAdded"
             android:exported="true" />
@@ -47,6 +35,17 @@
         <activity
             android:name=".EditNote"
             android:exported="true" />
+
+
+        <activity
+            android:name=".welcomePage"
+            android:exported="true" />
+        <activity
+            android:name=".firstpage"
+            android:exported="true" />
+
+
+
         <activity
             android:name=".MainActivity"
             android:exported="true">

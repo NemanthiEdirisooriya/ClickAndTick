@@ -24,7 +24,7 @@
         android:layout_width="290dp"
         android:layout_height="221dp"
         android:layout_marginStart="39dp"
-        android:layout_marginTop="4dp"
+
         android:layout_marginEnd="64dp"
         android:fontFamily="@font/aclonica"
         android:gravity="center"
@@ -40,9 +40,7 @@
         android:id="@+id/imageView3"
         android:layout_width="386dp"
         android:layout_height="570dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="112dp"
-        android:src="@drawable/homn"
+
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
