@@ -38,6 +38,8 @@ public class RegisterActivity extends AppCompatActivity {
                 String cemail = email.getText().toString();
                 String cpassword = password.getText().toString();
 
+                validateinfo(cname,cregisterno,cemail,cpassword);
+
                 if(cname.equals("")||cregisterno.equals("")||cemail.equals("")||cpassword.equals(""))
                 {
                     Toast.makeText(RegisterActivity.this,"fill all the fields",Toast.LENGTH_SHORT).show();
@@ -72,5 +74,48 @@ public class RegisterActivity extends AppCompatActivity {
             }
         });
     }
+
+    private boolean validateinfo(String cname, String cregisterno, String cemail, String cpassword) {
+
+
+        if(cname.length()==0){
+            name.requestFocus();
+            name.setError("Field cannot be empty");
+            return false;
+        }
+
+        if(cregisterno.length()==0){
+            registerno.requestFocus();
+            registerno.setError("Field cannot be empty");
+            return false;
+        }
+        else if(!cregisterno.matches("^[+]+[0-9]{10,13}$")) {
+            registerno.requestFocus();
+            registerno.setError("correct format: +94xxxxxxxxxx");
+            return false;
+        }
+
+        else if(cemail.length()==0){
+            email.requestFocus();
+            email.setError("Field cannot be empty");
+            return false;
+        }
+        else if(!cemail.matches("[a-zA-Z0-9._-]+@[a-z]+\\.+[a-z]+")) {
+            email.requestFocus();
+            email.setError("Enter valid email");
+            return false;
+        }
+        else if(cpassword.length()==0){
+            password.requestFocus();
+            password.setError("Minimum 6 characters required");
+            return false;
+        }
+        else{
+            return true;
+        }
+    }
+
+
 }
+
 

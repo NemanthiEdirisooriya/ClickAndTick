@@ -40,7 +40,6 @@
         android:id="@+id/imageView3"
         android:layout_width="386dp"
         android:layout_height="570dp"
-        android:layout_marginStart="28dp"
 
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />

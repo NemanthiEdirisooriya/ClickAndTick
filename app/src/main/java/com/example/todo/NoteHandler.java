@@ -80,6 +80,8 @@ public class NoteHandler extends DatabaseHelper {
         db.close();
         return note;
     }
+
+
     public boolean update(Note note){
 
         ContentValues values = new ContentValues();

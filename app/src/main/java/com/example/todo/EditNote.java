@@ -49,7 +49,7 @@ public class EditNote extends AppCompatActivity {
                 Note note = new Note(edtTitle.getText().toString(), edtDescription.getText().toString());
                 note.setId(intent.getIntExtra("id",1));
                 if (new NoteHandler(EditNote.this).update(note)){
-                    Toast.makeText(EditNote.this, "Note updated", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(EditNote.this, "Notice updated", Toast.LENGTH_SHORT).show();
                 }else {
                     Toast.makeText(EditNote.this, "Failed updating", Toast.LENGTH_SHORT).show();
                 }

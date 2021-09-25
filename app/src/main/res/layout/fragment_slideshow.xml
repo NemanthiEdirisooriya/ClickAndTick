@@ -22,8 +22,7 @@
 
     <Button
         android:id="@+id/btn_addrates"
-        android:layout_width="346dp"
-        android:layout_height="49dp"
+
         android:layout_marginStart="73dp"
         android:layout_marginTop="20dp"
         android:layout_marginEnd="70dp"
